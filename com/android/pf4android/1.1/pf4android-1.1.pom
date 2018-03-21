@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.android</groupId>
   <artifactId>pf4android</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>aar</packaging>
   <name>pf4Android</name>
   <description>pf for Android</description>
@@ -22,41 +22,10 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-android-sdk-cognitoidentityprovider</artifactId>
-      <version>2.6.13</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.facebook.android</groupId>
       <artifactId>facebook-login</artifactId>
       <version>4.29.0</version>
       <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-android-sdk-core</artifactId>
-      <version>2.6.13</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-android-sdk-cognito</artifactId>
-      <version>2.6.13</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-android-sdk-cognitoauth</artifactId>
-      <version>2.4.7</version>
-      <type>aar</type>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
